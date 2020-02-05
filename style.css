@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+}
+
+nav{
+    display:flex;
+    width:100%  ;
+    height:100%;
+    justify-content: center;
+}
+
+ul{
+   width:50%; 
+   height:200px;
+
+   display:flex;
+   list-style-type: none;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.cok{
+    color:black;
+}
+li a {
+    text-decoration: none;
+    color:black;
+}
+.left-header{
+    width:50%;
+}
+
+.header{
+    width:100%;
+    display:flex;
+    background:yellow;
+}
+.right-header{
+    width:50%;
+    background: green;
+}
+.left-header img{
+    width:50%;
+}
